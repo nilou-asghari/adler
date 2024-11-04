@@ -1,0 +1,16 @@
+.customNavbar {
+    background-color: #0f93fe;
+
+}
+
+.customNavbar .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+
+}
+
+
+.customNavbar .nav-link:hover {
+    color: #deff4f !important;
+}
