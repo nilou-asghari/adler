@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./Hero.css"; // Import your custom CSS file
-
+import "./Hero.css";
+import Button from "react-bootstrap/Button";
 const Hero = () => {
   return (
     <div>
@@ -22,12 +22,16 @@ const Hero = () => {
         >
           Adler Gebäude Reinigung – Ihre Lösung für perfekte Reinheit.
         </p>
-        <button type="button" className="customBtn mt-xl-4 rounded-1">
+        <button
+          variant="primary"
+          size="lg"
+          className="customBtn mt-xl-4 rounded-1"
+        >
           Angebot einholen
         </button>
       </div>
       <div
-        className="container text-center mx-auto p-xl-5"
+        className="container text-center mx-auto p-xl-5 p-sm-4"
         style={{
           color: "#0f93fe",
           letterSpacing: "0.2em",
