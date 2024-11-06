@@ -1,11 +1,13 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Midsection from "./components/Midsection";
 function App() {
   return (
     <>
       <Header />
-
-      <h1>main page</h1>
+      <Hero />
+      <Midsection />
     </>
   );
 }
