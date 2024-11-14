@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Midsection from "./components/Midsection";
 import Angebote from "./components/Angebote";
+import ContactUs from "./components/ContactUs";
 function App() {
   return (
     <>
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Midsection />
       <Angebote />
+      <ContactUs />
     </>
   );
 }
