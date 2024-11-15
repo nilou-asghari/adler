@@ -6,7 +6,9 @@ import Col from "react-bootstrap/Col";
 import "./Midsection.css";
 const Midsection = () => {
   return (
+
     <Container fluid className="text-center p-xl-5 customContainer">
+
       <Row>
         <Col className="mt-5 mb-5 ">
           <h2 style={{ fontSize: "3rem", fontWeight: "bold" }}>warum wir?</h2>
