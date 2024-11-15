@@ -3,6 +3,7 @@ import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "./ContactForm.css";
 
 const ContactForm = () => {
   const validationSchema = Yup.object({
@@ -28,7 +29,7 @@ const ContactForm = () => {
     window.location.href = mailtoLink;
   };
   return (
-    <div className="w-100 p-4">
+    <div className="w-100 ">
       <ToastContainer />
       <Formik
         initialValues={{ name: "", email: "", subject: "", message: "" }}
@@ -36,43 +37,55 @@ const ContactForm = () => {
         onSubmit={handleFormSubmit}
       >
         <Form>
-          <div className="mb-3">
-            <label htmlFor="name" className="form-label">
+          <div className="mb-2">
+            <label htmlFor="name" className="form-label customLable">
               Name
             </label>
-            <Field type="text" name="name" className="form-control" />
+            <Field
+              type="text"
+              name="name"
+              className="form-control custom-input"
+            />
             <ErrorMessage name="name" component="div" className="text-danger" />
           </div>
-          <div className="mb-3">
-            <label htmlFor="email" className="form-label">
+          <div className="mb-2">
+            <label htmlFor="email" className="form-label customLable">
               E-Mail-Adresse
             </label>
-            <Field type="text" name="email" className="form-control" />
+            <Field
+              type="text"
+              name="email"
+              className="form-control custom-input"
+            />
             <ErrorMessage
               name="email"
               component="div"
               className="text-danger"
             />
           </div>
-          <div className="mb-3">
-            <label htmlFor="subject" className="form-label">
+          <div className="mb-2">
+            <label htmlFor="subject" className="form-label customLable">
               Betreff
             </label>
-            <Field type="text" name="subject" className="form-control" />
+            <Field
+              type="text"
+              name="subject"
+              className="form-control custom-input"
+            />
             <ErrorMessage
               name="subject"
               component="div"
               className="text-danger"
             />
           </div>
-          <div className="mb-3">
-            <label htmlFor="message" className="form-label">
+          <div className="mb-2">
+            <label htmlFor="message" className="form-label customLable">
               Nachricht
             </label>
             <Field
               as="textarea"
               name="message"
-              className="form-control"
+              className="form-control custom-input"
               rows="4"
             />
             <ErrorMessage
