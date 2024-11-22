@@ -4,18 +4,17 @@ import Hero from "./components/Hero";
 import Midsection from "./components/Midsection";
 import Angebote from "./components/Angebote";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
+      <Hero id="home" />
       <Midsection />
-
-      <Angebote />
-
-      <ContactUs />
-
+      <Angebote id="services" />
+      <ContactUs id="contact" />
+      <Footer />
     </>
   );
 }

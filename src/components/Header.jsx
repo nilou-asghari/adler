@@ -1,5 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
+import { Link } from "react-scroll";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../components/Header.css";
 
@@ -19,13 +20,19 @@ const Header = () => {
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto pl-3 pr-3 ">
           <Nav.Link className="text-light nav-link" href="#home">
-            Home
+            <Link to="home" smooth={true} offset={-70} duration={500}>
+              Home
+            </Link>
           </Nav.Link>
-          <Nav.Link className="text-light nav-link" href="#link">
-            Dienstleistungen
+          <Nav.Link className="text-light nav-link" href="#services">
+            <Link to="services" smooth={true} offset={-80} duration={500}>
+              Dienstleistungen
+            </Link>
           </Nav.Link>
-          <Nav.Link className="text-light nav-link" href="#link">
-            Buchen
+          <Nav.Link className="text-light nav-link" href="#contact">
+            <Link to="contact" smooth={true} offset={-70} duration={500}>
+              Buchen
+            </Link>
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
