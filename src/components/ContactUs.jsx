@@ -5,7 +5,7 @@ import Location from "./Location";
 import ContactForm from "./ContactForm";
 const ContactUs = () => {
   return (
-    <div className="container-fluid m-0 p-0">
+    <div id="contact" className="container-fluid m-0 mb-5 p-0">
       <div
         className="container-fluid text-center p-xl-5 p-sm-4"
         style={{

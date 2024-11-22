@@ -50,7 +50,7 @@ const Angebote = () => {
     },
   ];
   return (
-    <>
+    <div id="services">
       <h1
         className="container text-center fw-bold mb-5 mt-5"
         style={{ color: "#0f93fe" }}
@@ -62,7 +62,7 @@ const Angebote = () => {
           <FlipCard key={index} {...card} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 

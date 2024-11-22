@@ -4,7 +4,7 @@ import "./Hero.css";
 import Button from "react-bootstrap/Button";
 const Hero = () => {
   return (
-    <div>
+    <div id="home">
       <div className="container-fluid text-center customHero">
         <h1
           style={{

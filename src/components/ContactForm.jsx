@@ -29,7 +29,7 @@ const ContactForm = () => {
     window.location.href = mailtoLink;
   };
   return (
-    <div className="w-100 ">
+    <div className="w-100">
       <ToastContainer />
       <Formik
         initialValues={{ name: "", email: "", subject: "", message: "" }}
