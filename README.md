@@ -35,56 +35,87 @@ Git for version control
 
 📂 Project Structure
 plaintext
+
 src/
+
 │
+
 ├── components/
+
 │   ├── Header.js
+
 │   ├── Hero.js
+
 │   ├── Midsection.js
+
 │   ├── FlipCard.js
+
 │   ├── Footer.js
+
 │   └── ContactForm.js
+
 │
 ├── assets/
+
 │   ├── images/
+
 │   └── styles/
+
 │       ├── Hero.css
+
 │       ├── Footer.css
+
 │       ├── Midsection.css
+
 │       └── FlipCard.css
+
 │
 ├── App.js
+
 ├── index.js
+
 └── README.md
+
 🚀 Getting Started
+
 Prerequisites
+
 Make sure you have the following installed on your system:
 
 Node.js (v16 or above)
+
 npm (v8 or above)
+
 Installation
+
 Clone the repository:
 
 bash
+
 git clone https://github.com/yourusername/adler-gebaude-reinigung.git
+
 cd adler-gebaude-reinigung
+
 Install dependencies:
 
 bash
 npm install
+
 Start the development server:
+
 
 bash
 npm start
+
 Open your browser and navigate to http://localhost:3000.
 
-📸 Screenshots
-Desktop View	Mobile View
 ❗ Contribution Policy
 This project is not open to external contributions. Please refrain from submitting pull requests or opening issues.
 
 📝 License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 
 📧 Contact
 For inquiries, feel free to reach out:
