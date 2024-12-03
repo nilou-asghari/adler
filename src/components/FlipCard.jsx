@@ -11,8 +11,8 @@ const FlipCard = ({ imageSrc, title, description }) => {
         </div>
         <div className="content d-flex flex-column align-items-center justify-content-center">
           <div>
-            <h4 className="text-white fs-1">{title}</h4>
-            <p className="fs-6 text-white">{description}</p>
+            <h4 className="text-white ">{title}</h4>
+            <p className=" text-white">{description}</p>
           </div>
         </div>
       </div>

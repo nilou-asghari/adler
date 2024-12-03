@@ -1,16 +1,24 @@
 .customNavbar {
     background-color: #0f93fe;
-
 }
 
 .customNavbar .nav-link {
     color: white !important;
     font-size: 1.2rem;
     transition: color 0.3s ease;
-
 }
 
 
 .customNavbar .nav-link:hover {
     color: #deff4f !important;
+}
+
+.customNavbar .nav-link {
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .customNavbar .nav-link {
+        font-size: 0.9rem;
+    }
 }

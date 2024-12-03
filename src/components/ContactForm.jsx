@@ -37,7 +37,7 @@ const ContactForm = () => {
         onSubmit={handleFormSubmit}
       >
         <Form>
-          <div className="mb-2">
+          <div className="mb-2 mt-1">
             <label htmlFor="name" className="form-label customLable">
               Name
             </label>

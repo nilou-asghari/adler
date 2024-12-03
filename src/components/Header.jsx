@@ -6,7 +6,7 @@ import "../components/Header.css";
 
 const Header = () => {
   return (
-    <Navbar expand="lg" className="customNavbar pt-2 pb-2" sticky="top">
+    <Navbar expand="lg" className="customNavbar pt-2 pb-2 px-2" sticky="top">
       <Navbar.Brand href="#home">
         <img
           src="/Adler-white.svg"
@@ -18,7 +18,7 @@ const Header = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="ml-auto pl-3 pr-3 ">
+        <Nav className="ms-auto pl-3 pr-3">
           <Nav.Link className="text-light nav-link" href="#home">
             <Link to="home" smooth={true} offset={-70} duration={500}>
               Home

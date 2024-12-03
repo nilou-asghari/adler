@@ -1,17 +1,48 @@
 .customContainer {
     background-color: #deff4f;
-    color: #0F93FE;
-
-
+    color: #0f93fe;
 }
 
 .customContainer .col-border {
-    border-right: 3px solid #0F93FE;
+    border-right: 3px solid #0f93fe;
+}
 
+.customContainer .col-border:last-child {
+    border-right: none;
 }
 
 .customContainer h6 {
     font-size: 1.5rem;
     font-weight: bold;
     line-height: 1.2;
+}
+
+/* Adjust Borders for Responsiveness */
+@media (max-width: 768px) {
+    .customContainer .col-border {
+        border-right: none;
+
+        border-bottom: 3px solid #0f93fe;
+        /* Add bottom border */
+        margin-bottom: 1rem;
+        /* Space out stacked columns */
+    }
+
+    .customContainer h6 {
+        font-size: 1rem;
+        /* Scale down text size */
+    }
+}
+
+@media (min-width: 768px) {
+    .customContainer .col-border {
+        margin-bottom: 0;
+
+    }
+
+    .customContainer h6 {
+        font-size: 1rem;
+
+    }
+
 }
