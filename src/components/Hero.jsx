@@ -1,7 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { Link } from "react-scroll";
 import "./Hero.css";
-import Button from "react-bootstrap/Button";
+
 const Hero = () => {
   return (
     <div id="home">
@@ -22,22 +23,25 @@ const Hero = () => {
         >
           Adler Gebäude Reinigung – Ihre Lösung für perfekte Reinheit.
         </p>
-        <button
-          variant="primary"
-          size="lg"
-          className="customBtn mt-xl-4 rounded-1"
-        >
-          Angebot einholen
-        </button>
+        <Link to="contact" smooth={true} offset={-70} duration={700}>
+          <button
+            variant="primary"
+            size="lg"
+            className="customBtn mt-xl-4 rounded-1"
+          >
+            Angebot einholen
+          </button>
+        </Link>
       </div>
       <div
-        className="container text-center mx-auto p-xl-5 p-sm-4"
+        className="container text-center mx-auto p-xl-5 p-md-4 p-sm-4"
         style={{
           color: "#0f93fe",
           letterSpacing: "0.2em",
         }}
       >
         <h3
+          className="container text-center "
           style={{
             fontWeight: "200",
           }}

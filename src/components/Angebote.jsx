@@ -6,47 +6,56 @@ const Angebote = () => {
     {
       imageSrc: "./hausmeister.jpg",
       title: "Hausmeister Service",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Zuverlässige Betreuung Ihrer Immobilie mit umfassenden Wartungs- und Reparaturdiensten.",
     },
     {
       imageSrc: "./boden.jpg",
       title: "Bodenbeschichtung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Professionelle Versiegelung und Schutz für langlebige und gepflegte Bodenbeläge.",
     },
     {
       imageSrc: "./window.jpg",
       title: "Glassreinigung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Streifenfreie Reinigung von Fenstern und Glasflächen für klare Sicht und strahlende Sauberkeit.",
     },
     {
       imageSrc: "./teppish.jpg",
       title: "Teppichreinigung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Tiefenreinigung für Teppiche, die Schmutz und Flecken gründlich entfernt.",
     },
     {
       imageSrc: "./fassade.jpg",
       title: "Fassadenreinigung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Fachgerechte Reinigung von Fassaden für ein makelloses Erscheinungsbild.",
     },
     {
       imageSrc: "./garden.jpg",
       title: "Gartenpflege",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Pflege und Gestaltung Ihres Gartens für eine grüne und ansprechende Umgebung.",
     },
     {
       imageSrc: "./treppen.jpg",
       title: "Treppenhausreinigung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Regelmäßige Reinigung für ein einladendes und gepflegtes Treppenhaus.",
     },
     {
       imageSrc: "./solar.jpg",
       title: "solarreinigung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Effiziente Reinigung von Solarmodulen zur Maximierung der Energieerzeugung.",
     },
     {
       imageSrc: "./car.jpg",
       title: "Autoreinigung",
-      description: "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+      description:
+        "Professionelle Innen- und Außenreinigung für ein strahlend sauberes Fahrzeug.",
     },
   ];
   return (

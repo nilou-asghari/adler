@@ -1,40 +1,42 @@
 import React from "react";
-
+import "./Footer.css";
 const Footer = () => {
   return (
     <div>
       <div
-        className="container-fluid"
+        className="container-fluid customFooter"
         style={{ backgroundColor: "#0F93FE", color: "#ffff" }}
       >
         <div className="container mt-2 py-5">
           <div className="row text-start g-2 pt-5">
-            <div className="col">
+            <div className="ccol-sm-12 col-md">
               <h1>Unsere Firma</h1>
               <p
                 class="h6 pt-3"
                 style={{ fontWeight: "100", lineHeight: "1.5rem" }}
               >
-                Ich bin ein Textabschnitt. Klicken Sie hier, um Ihren eigenen
-                Text hinzuzufügen und mich zu bearbeiten. Hier können Sie Ihren
-                Besuchern mehr erzählen.
+                Bei Adler Gebäude Reinigung steht die Kundenzufriedenheit an
+                erster Stelle. Mit langjähriger Erfahrung bieten wir
+                maßgeschneiderte Reinigungslösungen für Privathaushalte, Gewerbe
+                und Industrie. Vertrauen Sie auf unsere Professionalität und
+                Liebe zum Detail – für Sauberkeit, die überzeugt.
               </p>
             </div>
-            <div className="col">
+            <div className="col-sm-12 col-md">
               <h2 style={{ fontWeight: "100" }}>Zentrale</h2>
               <p
                 class="h6 pt-4"
                 style={{ fontWeight: "100", lineHeight: "1.5rem" }}
               >
-                Lindenstraße 507, 10555 Berlin <br />
-                +49 (0) 456 7890 <br />
+                Plittersdorfer Straße 5a , 76437 Rastatt <br />
+                +49 (0) 163 1011391 <br />
                 info@website.com
               </p>
             </div>
-            <div className="col">
+            <div className="col-sm-12 col-md">
               <h2 style={{ fontWeight: "100" }}>Betriebszeiten</h2>
               <p
-                class="h6 pt-4"
+                className="h6 pt-4"
                 style={{ fontWeight: "100", lineHeight: "1.5rem" }}
               >
                 Mo. bis Fr.: 8 - 20 Uhr <br />

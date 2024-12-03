@@ -27,3 +27,45 @@
     color: #0f93fe;
 
 }
+
+.customHero h1 {
+    font-size: 4rem;
+}
+
+.customHero p {
+    font-size: 1.5rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+
+@media (min-width: 576px) {
+    .customHero {
+        padding: 2rem;
+    }
+
+    h3 {
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .customHero h1 {
+        font-size: 2.5rem;
+    }
+
+    .customHero p {
+        font-size: 1rem;
+    }
+
+    .customHero {
+        padding: 2rem;
+    }
+
+    h3 {
+        padding: 1rem;
+    }
+}
