@@ -6,21 +6,33 @@ This project is a responsive website built for Adler Gebäude Reinigung, a clean
 
 🛠️ Features
 Responsive Design: Optimized for all screen sizes (desktop, tablet, and mobile).
+
 Flip Cards: Interactive flip cards to highlight services.
+
 Dynamic Components: Built using reusable components for efficiency and scalability.
+
 Custom Styling: Unique design with Bootstrap 5.3.3 and custom CSS for a professional look.
+
 Contact Section: Includes Google Maps integration and a functional contact form.
+
 Multilingual Support: Texts are in German.
+
 💻 Technologies Used
 Frontend:
+
 React.js
+
 Bootstrap 5.3.3
+
 Styling:
 CSS3
+
 Custom animations
+
 Tools:
 npm (Node Package Manager)
 Git for version control
+
 📂 Project Structure
 plaintext
 src/
