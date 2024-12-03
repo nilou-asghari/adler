@@ -1,6 +1,5 @@
-
 Adler Gebäude Reinigung - Website
-
+<!-- Replace with actual path -->
 
 📖 Overview
 This project is a responsive website built for Adler Gebäude Reinigung, a cleaning services company. The website is designed to showcase the company's services, values, and contact information while ensuring a user-friendly and visually appealing experience across all devices.
@@ -24,7 +23,6 @@ npm (Node Package Manager)
 Git for version control
 📂 Project Structure
 plaintext
-Copy code
 src/
 │
 ├── components/
@@ -56,24 +54,19 @@ Installation
 Clone the repository:
 
 bash
-Copy code
 git clone https://github.com/yourusername/adler-gebaude-reinigung.git
 cd adler-gebaude-reinigung
 Install dependencies:
 
 bash
-Copy code
 npm install
 Start the development server:
 
 bash
-Copy code
 npm start
 Open your browser and navigate to http://localhost:3000.
 
 📸 Screenshots
-Include screenshots of the website for better visualization (replace placeholder below with actual images).
-
 Desktop View	Mobile View
 ❗ Contribution Policy
 This project is not open to external contributions. Please refrain from submitting pull requests or opening issues.
@@ -84,5 +77,8 @@ This project is licensed under the MIT License. See the LICENSE file for details
 📧 Contact
 For inquiries, feel free to reach out:
 
-nilou.asghari@gmail.com
+Email: nilou.asghari@gmail.com
+
+
+
 
