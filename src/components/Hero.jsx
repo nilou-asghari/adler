@@ -2,10 +2,18 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-scroll";
 import "./Hero.css";
+import { Helmet } from "react-helmet-async";
 
 const Hero = () => {
   return (
     <div id="home">
+      <Helmet>
+        <title>Adler Gebäude Reinigung - Sauberkeit auf die Sie bauen können</title>
+        <meta
+          name="description"
+          content="Entdecken Sie unsere professionelle Reinigungsdienste bei Adler Gebäude Reinigung. Perfekte Reinheit garantiert!"
+        />
+      </Helmet>
       <div className="container-fluid text-center customHero">
         <h1
           style={{

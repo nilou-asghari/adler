@@ -2,11 +2,18 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "./Midsection.css";
+import { Helmet } from "react-helmet-async";
 
 const Midsection = () => {
   return (
     <Container fluid className="text-center p-xl-5 customContainer">
-      {/* Title */}
+     <Helmet>
+        <title>Adler Gebäude Reinigung - Sauberkeit auf die Sie bauen können</title>
+        <meta
+          name="description"
+          content="Entdecken Sie unsere professionelle Reinigungsdienste bei Adler Gebäude Reinigung. Perfekte Reinheit garantiert!"
+        />
+      </Helmet>
       <Row>
         <Col className="mt-5 mb-5">
           <h2 style={{ fontSize: "3rem", fontWeight: "bold" }}>warum wir?</h2>
