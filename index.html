@@ -2,12 +2,62 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
+    <title>Adler Gebäude Reinigung - Professional Cleaning Services</title>
+    <meta name="description" content="Adler Gebäude Reinigung offers high-quality cleaning services for homes and businesses. Contact us for professional and reliable cleaning solutions." />
+    
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Adler Gebäude Reinigung" />
+    <meta property="og:description" content="Expert cleaning services for homes and businesses. Experience top-notch cleanliness with Adler Gebäude Reinigung." />
+    <meta property="og:image" content="/assets/images/og-image.jpg" />
+    <meta property="og:url" content="https://www.adler-gebaeude-reinigung.com" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Metadata -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Adler Gebäude Reinigung" />
+    <meta name="twitter:description" content="Expert cleaning services for homes and businesses. Experience top-notch cleanliness with Adler Gebäude Reinigung." />
+    <meta name="twitter:image" content="/assets/images/twitter-image.jpg" />
+    
+    <!-- SEO and Robots -->
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://www.adler-gebaeude-reinigung.com" />
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Preload Styles -->
+    <link rel="preload" href="/styles/main.css" as="style" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Adler Gebäude Reinigung",
+        "image": "/assets/images/hero-image.jpg",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Plittersdorfer Straße 5a",
+          "addressLocality": "Rastatt",
+          "postalCode": "76437",
+          "addressCountry": "DE"
+        },
+        "telephone": "+49 (0) 163 1011391",
+        "url": "https://www.adler-gebaeude-reinigung.com",
+        "priceRange": "$$",
+        "openingHours": "Mo-Fr 08:00-18:00"
+      }
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <noscript>
+      <p>Adler Gebäude Reinigung requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
+    </noscript>
+    <div id="root" role="main" aria-label="Main content"></div>
+    <script type="module" src="/src/main.jsx" defer></script>
   </body>
 </html>

@@ -30,7 +30,7 @@ const Footer = () => {
               >
                 Plittersdorfer Straße 5a , 76437 Rastatt <br />
                 +49 (0) 163 1011391 <br />
-                info@website.com
+               
               </p>
             </div>
             <div className="col-sm-12 col-md">

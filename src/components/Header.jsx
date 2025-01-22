@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar.Brand href="#home">
         <img
           src="/Adler-white.svg"
-          alt="Logo"
+          alt="Adler Gebäude Reinigung Logo"
           width="160"
           height="50"
           className="d-inline-block align-top"
